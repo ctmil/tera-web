@@ -10,7 +10,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand">
+            <a class="navbar-brand" routerLink="/">
               <img src="assets/LOGO_TERAVISION_3_48p.png" class="logo">
             </a>
             <span class="navbar-brand">{{title}}</span>
@@ -21,8 +21,11 @@
             [collapse]="isCollapsed"
             >
           <ul class="nav navbar-nav">
-              <li class="active"><a href="/about" target="_blank">
+              <li routerLinkActive="active"><a routerLink="/about">
                 ACERCA DE
+              </a></li>
+              <li routerLinkActive="active"><a routerLink="/credits">
+                CREDITOS
               </a></li>
               <!--
               <li class="dropdown" dropdown>
@@ -43,31 +46,7 @@
     </div>
 </nav>
 
-<button type="button" class="btn btn-info"
-        (click)="openModal(template)">INSTALAR</button>
-
-<!--
-<button type="button" class="btn btn-primary"
-        tooltip="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-Button with tooltip
-</button>
-
-<button type="button" class="btn btn-info"
-        (click)="openModal(template)">Create template modal</button>
--->
-<ng-template #template>
-    <div class="modal-header">
-        <h4 class="modal-title pull-left">En construcción</h4>
-        <button type="button" class="close pull-right"
-                aria-label="Close" (click)="modalRef.hide()">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    </div>
-    <div class="modal-body">
-        Próximamente tocando este botón podrán empezar el proceso de instalación de la App de Teravisión para su celular.
-    </div>
-</ng-template>
-
+<router-outlet></router-outlet>
 <!--<app-threeviewer></app-threeviewer>-->
 <!--<moldeocontrol></moldeocontrol>-->
 <!--<ng-template #dynamic></ng-template>-->

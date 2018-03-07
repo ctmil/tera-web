@@ -14,7 +14,7 @@ export class AppComponent {
   public modalRef: BsModalRef;
 
   constructor(private modalService: BsModalService ) {
-    
+
   }
 
   public openModal(template: TemplateRef<any>) {
