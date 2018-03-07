@@ -8,11 +8,18 @@ import { BsDatepickerModule } from 'ngx-bootstrap';
 import { CollapseModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { CreditsComponent } from './credits/credits.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    HomeComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +27,8 @@ import { AppComponent } from './app.component';
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     BsDatepickerModule.forRoot(),
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
