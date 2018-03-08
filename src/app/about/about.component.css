@@ -4,7 +4,9 @@
 .img-fluid{
   max-width: 100%;
   height:auto;
+  box-shadow: 2px 2px 5px #101010;
 }
 .col{
-  padding:10px;
+  max-width:500px;
+  margin:0 auto;
 }

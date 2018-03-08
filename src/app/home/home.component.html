@@ -1,26 +1,26 @@
-<div class="cont col">
+<div class="cont">
   <h3>TeraVision</h3>
   <p>8/9/10/11/15/16/17/18 Marzo 2018
   CETC Teatro Colón<br>
   <a href="http://www.teatrocolon.org.ar/es/2018/experimentacion/teravisi%C3%B3n">Ver Entradas</a>
   </p>
-  <h3>Dispositivos Compatibles:</h3>
+  <br>
+  <h4>Dispositivos Compatibles:</h4>
   <ul>
     <li>Android mayor a 5.0</li>
     <li>iPhone</li>
-    <br>
+  </ul>
+  <h4>Dispositivos Experimentales:</h4>
+  <ul>
     <li>Android menor a 5.0 (Experimental)</li>
     <li>iPad y Tablets (Experimental)</li>
   </ul>
-
+  <br>
   <p>Es conveniente traer la Aplicación instalada para la Obra. En caso de iPhone, se les instalará minutos antes de la función, para Android puede descargarse con el siguiente botón:</p>
 
   <button href="./assets/teraapp.apk" type="button" class="btn btn-info"
           (click)="openModal(template)">INSTALAR ANDROID</button>
 
-  <div class="col-m">
-    <img width="200" src="./assets/mecenazgo.jpg" alt="mecenazgo" class="img-fluid">
-  </div>
 </div>
 
 <!--
@@ -34,14 +34,14 @@ Button with tooltip
 -->
 <ng-template #template>
     <div class="modal-header">
-        <h4 class="modal-title pull-left">Instalación Android</h4>
+        <h4 class="modal-title pull-left" style="color:#000;">Instalación Android</h4>
         <button type="button" class="close pull-right"
                 aria-label="Close" (click)="modalRef.hide()">
       <span aria-hidden="true">&times;</span>
     </button>
     </div>
-    <div class="modal-body">
+    <div class="modal-body" style="color:#000;">
         Se va a descargar la TeraApp en su Android. Por favor permita la descarga. Recuerde antes de instalar permitir instalación de recursos desconocidos (Ajustes  > Seguridad > Recursos Desconocidos).
+        <br><br><b><a href="./assets/teraapp.apk">DESCARGAR APK PARA ANDROID</a></b>
     </div>
-    <a href="./assets/teraapp.apk">DESCARGAR APK PARA ANDROID</a>
 </ng-template>

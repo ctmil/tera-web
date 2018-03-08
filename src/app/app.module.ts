@@ -12,6 +12,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { CreditsComponent } from './credits/credits.component';
+import { FotosComponent } from './fotos/fotos.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CreditsComponent } from './credits/credits.component';
     AppComponent,
     AboutComponent,
     HomeComponent,
-    CreditsComponent
+    CreditsComponent,
+    FotosComponent
   ],
   imports: [
     BrowserModule,
