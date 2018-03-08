@@ -26,4 +26,5 @@
 .btn-info{
   color:#000;
   font-weight: bold;
+  box-shadow: 2px 2px 5px #111;
 }
