@@ -1,5 +1,6 @@
 img.logo {
   max-height: 48px;
+  border-radius:35%;
 }
 
 .navbar {
@@ -7,7 +8,9 @@ img.logo {
   background:#145d88;
   color:#fff;
   border:0 solid #000;
+  border-bottom:4px solid #114d6f;
   border-radius:0;
+  text-shadow: 1px 1px 2px #111;
 }
 
 .navbar-brand {
@@ -20,7 +23,6 @@ img.logo {
   border:0 solid #000;
   border-radius:0;
 }
-
 .navbar-nav>li>a {
     line-height: 40px !important;
     color:#fff;
@@ -30,16 +32,24 @@ img.logo {
   max-width: 100%;
   height:auto;
 }
-
 .active{
   background: #1a3447 !important;
 }
+.img_left{
+  position:absolute;
+  right:10px;
+  top:15px;
+}
 footer{
   margin-top:60px;
-  height:200px;
+  height:90px;
   background:#145d88;
-  text-align:right;
   padding:10px 10px 0 10px;
   border-top:1px solid #ccc;
   border:0 solid #000;
+  clear: both;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  border-top:4px solid #114d6f;
 }

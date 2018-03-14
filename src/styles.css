@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body{
-  background:#1a3447;
-  color:#eee;
-  box-shadow: inset 0 0 60px #111;
+  position: relative !important;
+  background:#1a3447 !important;
+  color:#eee !important;
+  box-shadow: inset 0 0 60px #111 !important;
+  padding-bottom: 110px;
+  min-height: 100%;
+  font-family: 'Raleway', sans-serif !important;
 }

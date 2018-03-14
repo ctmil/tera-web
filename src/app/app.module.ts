@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { CreditsComponent } from './credits/credits.component';
 import { FotosComponent } from './fotos/fotos.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FotosComponent } from './fotos/fotos.component';
     AboutComponent,
     HomeComponent,
     CreditsComponent,
-    FotosComponent
+    FotosComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,

@@ -27,23 +27,12 @@
               <li routerLinkActive="active"><a routerLink="/credits">
                 CREDITOS
               </a></li>
-              <li routerLinkActive="active"><a routerLink="/fotos">
-                FOTOS
+              <li routerLinkActive="active"><a routerLink="/difusion">
+                DIFUSION
               </a></li>
-              <!--
-              <li class="dropdown" dropdown>
-                  <a dropdownToggle role="button">
-                    Samples <span class="caret"></span></a>
-                  <ul *dropdownMenu class="dropdown-menu">
-                      <li><a href="#" (click)="loadsample($event,0)">Ejemplo 1</a></li>
-                      <li><a href="#" (click)="loadsample($event,1)">Ejemplo 2</a></li>
-                      <li><a href="#" (click)="loadsample($event,2)">Ejemplo 3</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#" (click)="loadsample($event,3)">Ejemplos 4</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#" (click)="loadsample($event,4)">Ejemplos 5</a></li>
-                  </ul>
-              </li>-->
+              <li routerLinkActive="active"><a routerLink="/galeria">
+                GALERIA
+              </a></li>
           </ul>
         </div>
     </div>
@@ -52,11 +41,11 @@
 <router-outlet></router-outlet>
 
 <footer>
-  <img width="150" src="./assets/mecenazgo.jpg" alt="mecenazgo" class="img-fluid">
+  <a href="http://www.moldeointeractive.com.ar" target="blank">
+    <img width="80" src="./assets/moldeo_interactive.png" alt="Moldeo Interactive" title="Moldeo Interactive" class="img-fluid">
+  </a>
+  <a href="http://moldeo.org" target="blank">
+    <img width="70" src="./assets/moldeologo.png" alt="Moldeo.org" title="Moldeo.org" class="img-fluid">
+  </a>
+  <img width="80" src="./assets/mecenazgo.jpg" alt="mecenazgo" class="img-fluid img_left">
 </footer>
-<!--<app-threeviewer></app-threeviewer>-->
-<!--<moldeocontrol></moldeocontrol>-->
-<!--<ng-template #dynamic></ng-template>-->
-<!--<moldeojs-view [mol]="this.sample"></moldeojs-view>-->
-<!--router-outlet></router-outlet-->
-<!--touch-component></touch-component-->
