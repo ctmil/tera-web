@@ -47,9 +47,7 @@ footer{
   padding:10px 10px 0 10px;
   border-top:1px solid #ccc;
   border:0 solid #000;
-  clear: both;
-  position:absolute;
-  bottom:0;
   width:100%;
+  position:relative;
   border-top:4px solid #114d6f;
 }
